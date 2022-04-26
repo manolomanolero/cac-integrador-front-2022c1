@@ -1,0 +1,18 @@
+.fondo-imagen {
+    background-image: url(../img/ba1.jpg);
+    background-size: cover;
+}
+
+.fondo-oscuro {
+    background-color: #353a40;
+}
+
+.bg-badge-react {
+    background-color: #27a9bb;
+}
+
+.text-dotted{
+    border-bottom: 1px dashed rgb(0, 0, 0);
+    text-decoration: none; 
+    color: black;
+}
