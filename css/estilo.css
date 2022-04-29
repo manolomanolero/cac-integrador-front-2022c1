@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 .fondo-imagen {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/ba1.jpg);
@@ -6,10 +9,6 @@
     background-position: center;
     height: 800px;
     
-}
-
-.image-size{
-    filter: brightness(100%);
 }
 
 .fondo-oscuro {
@@ -26,11 +25,30 @@
     color: black;
 }
 
+.image-container{
+    align-items: stretch;
+    height: 800px;
+}
+
+.columna-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+
 #send-form-button {
     color: white;
     font-weight: bold;
     background-color: #96c93e;
 }
+
+#image-buttons-container{
+    text-align: right;
+}
+
+
 
 footer {
     background-color: #1e516e;
