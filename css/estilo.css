@@ -1,6 +1,15 @@
+
+
 .fondo-imagen {
-    background-image: url(../img/ba1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../img/ba1.jpg);
     background-size: cover;
+    background-position: center;
+    height: 800px;
+    
+}
+
+.image-size{
+    filter: brightness(100%);
 }
 
 .fondo-oscuro {
@@ -15,4 +24,20 @@
     border-bottom: 1px dashed rgb(0, 0, 0);
     text-decoration: none; 
     color: black;
+}
+
+#send-form-button {
+    color: white;
+    font-weight: bold;
+    background-color: #96c93e;
+}
+
+footer {
+    background-color: #1e516e;
+    
+}
+
+footer li{
+    max-width: 140px;
+    text-align: center;
 }
